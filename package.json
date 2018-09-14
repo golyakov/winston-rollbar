@@ -1,7 +1,7 @@
 {
-  "name": "winston-transport-rollbar",
+  "name": "rollbar-winston",
   "description": "An updated and actively maintained rollbar transport for winston",
-  "version": "2.4.0",
+  "version": "0.0.1",
   "author": "Elliott Spira <elliottspira@gmail.com> (https://gorillastack.com)",
   "license": "MIT",
   "repository": {
@@ -21,13 +21,13 @@
   },
   "devDependencies": {
     "vows": "^0.8.2",
-    "winston": "^2.3.1"
+    "winston": "^3.0.0"
   },
   "main": "./lib/rollbar_transport",
   "scripts": {
     "test": "vows test/*test.js --spec"
   },
   "engines": {
-    "node": ">= 0.12.0"
+    "node": ">= 6.4.0"
   }
 }
